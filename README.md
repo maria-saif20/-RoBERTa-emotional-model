@@ -50,9 +50,6 @@ To use the model, simply open the `roberta_emotional_model.ipynb` notebook and f
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-# Load the model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("path_to_your_fine_tuned_model")
-model = AutoModelForSequenceClassification.from_pretrained("path_to_your_fine_tuned_model")
 
 # Predict emotion
 text = "I am so happy to see this!"
